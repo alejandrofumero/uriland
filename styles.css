@@ -1,12 +1,12 @@
 html {
     background-color: #f4f1ea;
-    /* Base paper color */
     opacity: 0.8;
-    /* Adjust for subtleness */
     background-image: linear-gradient(to bottom, #9ABDDC 1px, transparent 1px),
         url(https://grainy-gradients.vercel.app/noise.svg);
     background-size: 100% 45px, 400px 400px;
-    /* Adjust 30px to change line spacing */
+    font-family: "Kalam", cursive;
+    font-weight: 300;
+    font-style: normal;
 }
 
 body {
@@ -46,7 +46,7 @@ body {
     rotate: -30deg;
     top: 60px;
     mix-blend-mode: darken;
-    animation: flicker 0.3s infinite;
+    animation: flicker 2s infinite;
     height: 300px;
 }
 
@@ -76,7 +76,7 @@ body {
     }
 }
 
-.svgRayo {
+#svgRayo {
     position: absolute;
     top: 0;
     left: 0;
@@ -111,4 +111,10 @@ body {
     to {
         opacity: 0;
     }
+}
+
+.card {
+    padding: 1em;
+    border-radius: 10px;
+    width: min(250px, 90vw);
 }
