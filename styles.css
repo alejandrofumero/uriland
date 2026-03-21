@@ -11,8 +11,8 @@ html {
 
 body {
     min-height: 100dvh;
-    padding: none;
-    margin: none;
+    padding: 0;
+    margin: 0;
     position: relative;
 }
 
@@ -42,7 +42,7 @@ body {
 
 .lighting {
     position: absolute;
-    right: 0;
+    right: 1em;
     rotate: -30deg;
     top: 60px;
     mix-blend-mode: darken;
@@ -117,4 +117,16 @@ body {
     padding: 1em;
     border-radius: 10px;
     width: min(250px, 90vw);
+    border: solid 2px #808080;
+    cursor: pointer;
+}
+.card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.card .label {
+    text-align: center;
+    text-decoration: none;
+    color: #111;
+    font-size: 30px;
 }
