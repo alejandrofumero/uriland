@@ -1,0 +1,7 @@
+html {
+  background-color: #f4f1ea; /* Base paper color */
+  opacity: 0.8; /* Adjust for subtleness */
+  background-image: linear-gradient(to bottom, #9ABDDC 1px, transparent 1px),
+     url(https://grainy-gradients.vercel.app/noise.svg);
+  background-size: 100% 45px, 400px 400px; /* Adjust 30px to change line spacing */
+}
