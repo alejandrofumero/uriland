@@ -16,15 +16,38 @@ body{
 .row {
     padding: 2em;
     display: flex;
+    justify-content: center;
 }
 
 .doodle {
+    mix-blend-mode: darken;
+}
+
+.doodle.title {
+    max-width: 100%;
+}
+
+.doodle.char {
     position: absolute;
-    left: 0; 
-    height: 60dvh;
+    left: -100px;
+    height: 90dvh;
+    top: 100px;
 }
 
 .lighting {
     position: absolute;
     right: 0;
+    rotate: -30deg;
+    top: 0px;
+    mix-blend-mode: darken;
+    animation: flicker 0.3s infinite;
+}
+
+@keyframes flicker {
+  0%   { opacity: 1; }
+  20%  { opacity: 0.4; }
+  40%  { opacity: 1; }
+  60%  { opacity: 0.2; }
+  80%  { opacity: 1; }
+  100% { opacity: 0.5; }
 }
