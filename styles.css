@@ -5,3 +5,26 @@ html {
      url(https://grainy-gradients.vercel.app/noise.svg);
   background-size: 100% 45px, 400px 400px; /* Adjust 30px to change line spacing */
 }
+
+body{
+    min-height: 100dvh;
+    padding: none;
+    margin: none;
+    position: relative;
+}
+
+.row {
+    padding: 2em;
+    display: flex;
+}
+
+.doodle {
+    position: absolute;
+    left: 0; 
+    height: 60dvh;
+}
+
+.lighting {
+    position: absolute;
+    right: 0;
+}
