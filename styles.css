@@ -41,6 +41,7 @@ body{
     top: 0px;
     mix-blend-mode: darken;
     animation: flicker 0.3s infinite;
+    height: 300px;
 }
 
 @keyframes flicker {
