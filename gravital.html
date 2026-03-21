@@ -12,7 +12,108 @@
 </head>
 
 <body>
-    <div style="position:relative;height:0;padding-bottom:117.6%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://arcade.makecode.com/---run?id=S94617-81613-18837-91209" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div>
+    <div id="embed-frame">
+
+        <div class="simframe ui embed" tabindex="0" style="padding-bottom: 117.647%;"><iframe
+                id="sim-frame-1089827194207431970.03895095606843302" title="Simulator" allowfullscreen=""
+                allow="autoplay;microphone" sandbox="allow-same-origin allow-scripts" class="no-select"
+                src="https://trg-arcade.userpxt.io/---simulator#sim-frame-1089827194207431970.03895095606843302"
+                frameborder="0" data-runid="00245151132014127860.8474154484234757"
+                data-origin="https://trg-arcade.userpxt.io"
+                data-runtimeid="blue-5090560273291022890.5378728739811547"></iframe><i class="videoplay xicon icon"
+                style="display: none;"></i>
+            <div class="ui active loader" style="display: none;"></div>
+        </div>
+    </div>
+
+    <style>
+        #embed-frame {
+            display: flex;
+            align-items: stretch;
+        }
+
+        #embed-frame,
+        .script-embed {
+            width: 100%;
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+            flex-grow: 1;
+        }
+
+        div.simframe.ui.embed,
+        #embed-frame iframe.sim-embed {
+            display: flex;
+            height: auto !important;
+        }
+
+        div.simframe.ui.embed {
+            background: transparent;
+        }
+
+        .ui.embed {
+            background: #f8fafc;
+            height: 0;
+            max-width: 100%;
+            overflow: hidden;
+            padding-bottom: 56.25%;
+            position: relative;
+        }
+
+        div.simframe {
+            border: none;
+            margin: 0 0 0.5rem 0;
+            position: relative !important;
+            background: transparent;
+            width: 100% !important;
+            height: 100% !important;
+            display: inline-block;
+            padding-bottom: 0 !important;
+        }
+
+        div.simframe {
+            background: transparent;
+            border: none;
+            margin: 0 0 .5rem;
+            padding-bottom: 81.96%;
+            position: relative;
+            width: 100%;
+        }
+
+        div.simframe.ui.embed>iframe {
+            position: relative !important;
+            width: 100%;
+        }
+
+        .ui.embed embed,
+        .ui.embed iframe,
+        .ui.embed object {
+            border: none;
+            height: 100%;
+            left: 0;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+
+        div.simframe>iframe {
+            height: 100%;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+
+        .no-select {
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+    </style>
 </body>
 
 
