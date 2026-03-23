@@ -28,6 +28,7 @@ body {
 
 .doodle {
     mix-blend-mode: darken;
+    animation: blend-hack 2s infinite;
 }
 
 .doodle.title {
@@ -44,12 +45,11 @@ body {
     object-position: top center;
 }
 
-.lighting {
+.doodle.lighting {
     position: absolute;
     right: 1em;
     rotate: -30deg;
     top: 60px;
-    mix-blend-mode: darken;
     animation: flicker 2s infinite;
     height: 200px;
 }
@@ -75,6 +75,15 @@ body {
         opacity: 0;
     }
 
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes blend-hack {
+    0% {
+        opacity: 1;
+    }
     100% {
         opacity: 0;
     }
